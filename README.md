@@ -6,7 +6,7 @@ A modular system that uses LLMs and curated sustainability data to generate insi
 
 ## 🔗 Live Application
 
-[Explore the Live Application](https://mathias1801.github.io/Sustainability_Consultant/)
+[Explore the Live Application](https://frederikbdsstudent.github.io/Sustainability-Consultant/)
 
 ---
 
