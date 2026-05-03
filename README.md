@@ -10,6 +10,12 @@ A modular system that uses LLMs and curated sustainability data to generate insi
 
 ---
 
+## ⏸️ Project Status
+
+Live updates are currently paused. The project remains online as a portfolio snapshot, but the automated pipeline depends on external APIs, changing source coverage, and active maintenance. The latest published version is therefore being kept as a stable reference until active development resumes.
+
+---
+
 ## 🧭 Project Overview
 
 This project automatically:
@@ -21,7 +27,7 @@ This project automatically:
 5. **Stores Data in SQLite**
 6. **API-setup for User Ratings**
 
-All components are automated and can run as a scheduled workflow.
+All components are automated and can still be run manually, but scheduled updates are currently paused.
 
 ---
 
@@ -57,8 +63,8 @@ All components are automated and can run as a scheduled workflow.
 ## 🔁 GitHub Actions
 
 Two workflows are included:
-- `run-sustainability-summary.yml`: Automates the weekly pipeline.
-- `sync_ratings.yml`: Manages ratings data.
+- `run-sustainability-summary.yml`: Runs the weekly pipeline manually when needed.
+- `sync_ratings.yml`: Syncs ratings data manually when needed.
 
 ---
 

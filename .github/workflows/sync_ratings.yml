@@ -1,8 +1,6 @@
 name: Daily Sync Ratings from Render
 
 on:
-  schedule:
-    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:
